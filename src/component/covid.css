@@ -1,0 +1,44 @@
+.covid{
+    /* height: 40em; */
+    padding: 2em;
+    background-color: rgb(142, 165, 165);
+}
+.covid__text{
+    color: forestgreen;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.covid__updated{
+    
+    color: red;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.covid__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+.box > span{
+    border: 2px solid green;
+    border-radius: 3px;
+    padding: 5px;
+    width: 20em;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(18, 110, 26);
+    text-align: center;
+
+}
